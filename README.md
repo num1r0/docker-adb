@@ -18,8 +18,8 @@ What `setup.sh` does:
 
 Delete 'adb/alpine' image:
 --------------------------
-docker rmi adb/alpine
+`docker rmi adb/alpine`
 
 Delete all existing images
 --------------------------
-docker images -q --filter dangling=true | xargs docker rmi
+`docker images -q --filter dangling=true | xargs docker rmi`
