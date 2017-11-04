@@ -7,6 +7,10 @@ How to install:
 * Clone repository: `git clone git@github.com:num1r0/docker-adb.git`
 * Run setup script: `./setup.sh`
 
+How to use:
+-----------
+Just run usual `adb` commands (ex.: `adb devices`, `adb shell`, etc.)
+
 What `setup.sh` does:
 ---------------------
 * Builds docker image: `docker build -t adb/alpine:latest .`
