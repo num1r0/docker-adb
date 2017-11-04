@@ -1,5 +1,5 @@
-docker-adb (Android Debugging Bridge in Docker Container)
-=========================================================
+docker-adb 
+==========
 Google's 'adb' tool isolated in a small docker container, based on 'alpine' Linux (~7MB, compared to Ubuntu: 180MB)
 
 How to install:
